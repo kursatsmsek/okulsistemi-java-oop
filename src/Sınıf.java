@@ -8,6 +8,9 @@ public class Sınıf {
         this.level = level;
         this.mevcut = mevcut;
     }
+    public String sınıfIsmi() {
+        return level + "-" + sube;
+    }
 
     public String getSube() {
         return sube;

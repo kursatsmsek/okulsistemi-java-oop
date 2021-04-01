@@ -21,10 +21,10 @@ public class Ogretmen extends Insan {
     }
 
     public void dersAnlat(Sınıf sınıf) {
-        System.out.println(getisim() + " hoca" + sınıf + " sınıfına ders anlatıyor.");
+        System.out.println(getisim() + " hoca " + sınıf.sınıfIsmi() + " sınıfına ders anlatıyor.");
     }
 
     public void notVer(Ogrenci ogrenci,int not) {
-        System.out.println(getisim() + " hoca" + ogrenci + " adlı öğrenciye " + not + " puan verdi.");
+        System.out.println(getisim() + " hoca " + ogrenci.getisim() + " adlı öğrenciye " + not + " puan verdi.");
     }
 }

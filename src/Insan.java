@@ -39,6 +39,6 @@ public class Insan {
     }
 
     public void tatileCikar(int gun) {
-        System.out.println(getisim() + " " + gun + " tatile çıkıyor.");
+        System.out.println(getisim() + " isimli kişi " + gun + " gün tatile çıkıyor.");
     }
 }
